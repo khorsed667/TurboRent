@@ -5,9 +5,9 @@ import {BiMap} from 'react-icons/bi'
 
 const Works = () => {
     return (
-        <div className="work-container bg-slate-100 m-0">
+        <div className="work-container m-0">
             <div className="work-section margins paddings flex flex-col justify-center items-center">
-                <div className="work-intro w-2/5 text-center mt-10">
+                <div className="work-intro w-2/5 text-center my-16">
                     <p className='text-2xl font-semibold'>How It Works</p>
                     <p className='secondaryText p-[1%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi mollitia eos, commodi qui numquam ullam a fuga illum quo quos.</p>
                 </div>
