@@ -4,7 +4,6 @@ import { SlSpeedometer } from "react-icons/sl";
 import { BsSpeedometer } from "react-icons/bs";
 import { BsFillFuelPumpFill } from "react-icons/bs";
 import { IoIosPricetag } from "react-icons/io";
-import ReactRating from "react-rating";
 
 const Honda = () => {
   const [hondaCar, setHondaCar] = useState([]);
@@ -29,12 +28,13 @@ const Honda = () => {
               <hr />
               <div className="">
                 <div className="flex">
-                  <ReactRating
+                  {/* TODO: Need to impliment react rating */}
+                  {/* <ReactRating
                     initialRating={item.rating} // Pass the rating value to initialRating prop
                     emptySymbol="far fa-star" // Customize the empty star icon
                     fullSymbol="fas fa-star" // Customize the full star icon
                     fractions={2} // You can set the fractions to have half stars, etc.
-                  />
+                  /> */}
                   <p className="text-sm">({item.rating})</p>
                 </div>
                 <div className="flex justify-between">

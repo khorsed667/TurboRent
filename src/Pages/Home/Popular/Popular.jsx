@@ -9,11 +9,11 @@ import RoyalsCars from "./RoyalsCars";
 
 const Popular = () => {
   return (
-    <div className="popular-container">
+    <div className="popular-container bg-slate-100">
       <div className="popular-section margins paddings">
         <div className="popular-heading w-2/5 mx-auto text-center my-3">
           <p className="text-2xl font-bold">Explore Our Wheels</p>
-          <p className="secondaryText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad unde id aperiam assumenda obcaecati ipsam laborum iure libero ea nihil!</p>
+          <p className="secondaryText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad unde id aperiam assumenda obcaecati ipsam laborum iure libero ea nihil.</p>
         </div>
         <div>
           <Tabs className=" flex flex-col">
