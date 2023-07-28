@@ -1,5 +1,6 @@
 import Banner from '../Banner/Banner';
 import CarType from '../CarType/CarType';
+import Choose from '../Choose/Choose';
 import Number from '../Number/Number';
 import Popular from '../Popular/Popular';
 import Search from '../Search/Search';
@@ -14,6 +15,7 @@ const Home = () => {
             <Popular></Popular>
             <CarType></CarType>
             <Number></Number>
+            <Choose></Choose>
         </div>
     );
 };
