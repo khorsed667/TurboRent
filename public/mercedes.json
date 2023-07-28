@@ -1,0 +1,87 @@
+[
+    {
+      "brand": "Mercedes-Benz",
+      "carName": "Mercedes-Benz C-Class",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/03/09/89/53/240_F_309895310_3bzpo2GCAmnYwzpt1xJVtpZKggJatvPn.jpg",
+      "year": 2023,
+      "perDayPrice": 140,
+      "mileage": "29 MPG",
+      "topSpeed": "135 mph",
+      "description": "The Mercedes-Benz C-Class is a sophisticated luxury sedan with cutting-edge technology.",
+      "rating": 4.6,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "carName": "Mercedes-Benz E-Class",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/05/17/53/41/240_F_517534195_nrQts6GulbZuWMV2mrKJ9yGHvF6HkL2a.jpg",
+      "year": 2023,
+      "perDayPrice": 160,
+      "mileage": "28 MPG",
+      "topSpeed": "140 mph",
+      "description": "The Mercedes-Benz E-Class is a luxurious executive sedan with a perfect balance of comfort and performance.",
+      "rating": 4.7,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "carName": "Mercedes-Benz GLE",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/02/37/17/69/240_F_237176992_sZ2TpdS8HR0e3UCz4iZ0VDGQ3Yj41Vxk.jpg",
+      "year": 2023,
+      "perDayPrice": 180,
+      "mileage": "25 MPG",
+      "topSpeed": "150 mph",
+      "description": "The Mercedes-Benz GLE is a premium SUV with advanced features and a refined interior.",
+      "rating": 4.8,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "carName": "Mercedes-Benz S-Class",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/02/96/59/69/240_F_296596958_uGtfXGs6DBwbYGRJ2J1CGckOk9ftyrOi.jpg",
+      "year": 2023,
+      "perDayPrice": 220,
+      "mileage": "23 MPG",
+      "topSpeed": "155 mph",
+      "description": "The Mercedes-Benz S-Class is the epitome of luxury, offering unparalleled comfort and advanced technology.",
+      "rating": 4.9,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "carName": "Mercedes-Benz AMG GT",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/05/17/53/41/240_F_517534195_nrQts6GulbZuWMV2mrKJ9yGHvF6HkL2a.jpg",
+      "year": 2023,
+      "perDayPrice": 400,
+      "mileage": "20 MPG",
+      "topSpeed": "190 mph",
+      "description": "The Mercedes-Benz AMG GT is a high-performance sports car with striking design and thrilling driving dynamics.",
+      "rating": 4.9,
+      "seats": 2,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "carName": "Mercedes-Benz GLC",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/03/09/89/53/240_F_309895310_3bzpo2GCAmnYwzpt1xJVtpZKggJatvPn.jpg",
+      "year": 2023,
+      "perDayPrice": 170,
+      "mileage": "26 MPG",
+      "topSpeed": "140 mph",
+      "description": "The Mercedes-Benz GLC is a luxury compact SUV known for its comfortable ride and modern features.",
+      "rating": 4.7,
+      "seats": 5,
+      "engineType": "Gasoline"
+    }
+  ]
+  

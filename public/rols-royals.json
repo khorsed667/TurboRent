@@ -1,0 +1,87 @@
+[
+    {
+      "brand": "Rolls-Royce",
+      "carName": "Rolls-Royce Cullinan",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/03/37/87/01/240_F_337870168_qiGArRos2BM3RMDVN3hqYeV4xXUBy1Gf.jpg",
+      "year": 2023,
+      "perDayPrice": 1800,
+      "mileage": "12 MPG",
+      "topSpeed": "155 mph",
+      "description": "The Rolls-Royce Cullinan is an ultra-luxurious SUV that combines off-road capabilities with opulent interiors.",
+      "rating": 4.9,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Rolls-Royce",
+      "carName": "Rolls-Royce Wraith",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/03/16/35/70/240_F_316357006_yczjuAWHLsfdvI573kBK6U1nIeuADTU2.jpg",
+      "year": 2023,
+      "perDayPrice": 1400,
+      "mileage": "16 MPG",
+      "topSpeed": "155 mph",
+      "description": "The Rolls-Royce Wraith is a luxurious grand tourer, offering a perfect blend of performance and elegance.",
+      "rating": 4.7,
+      "seats": 4,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Rolls-Royce",
+      "carName": "Rolls-Royce Dawn",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/03/42/77/07/240_F_342770714_ylEBNuzeNoHriw6X0e9dlZW3avu2fGEU.jpg",
+      "year": 2023,
+      "perDayPrice": 1300,
+      "mileage": "17 MPG",
+      "topSpeed": "155 mph",
+      "description": "The Rolls-Royce Dawn is a glamorous convertible with an opulent interior and a powerful performance.",
+      "rating": 4.6,
+      "seats": 4,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Rolls-Royce",
+      "carName": "Rolls-Royce Sweptail",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/03/92/86/90/240_F_392869045_8EffBwanTbzKTwUr6r3EB0tY8bDB0KWz.jpg",
+      "year": 2023,
+      "perDayPrice": 2500,
+      "mileage": "10 MPG",
+      "topSpeed": "155 mph",
+      "description": "The Rolls-Royce Sweptail is a bespoke luxury coupe, handcrafted to the specific desires of its owner.",
+      "rating": 5.0,
+      "seats": 2,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Rolls-Royce",
+      "carName": "Rolls-Royce Phantom Extended",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/03/16/35/70/240_F_316357006_yczjuAWHLsfdvI573kBK6U1nIeuADTU2.jpg",
+      "year": 2023,
+      "perDayPrice": 1800,
+      "mileage": "14 MPG",
+      "topSpeed": "155 mph",
+      "description": "The Rolls-Royce Phantom Extended offers extra legroom and luxurious amenities for an unrivaled limousine experience.",
+      "rating": 4.9,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Rolls-Royce",
+      "carName": "Rolls-Royce Black Badge",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/03/37/87/01/240_F_337870168_qiGArRos2BM3RMDVN3hqYeV4xXUBy1Gf.jpg",
+      "year": 2023,
+      "perDayPrice": 2000,
+      "mileage": "13 MPG",
+      "topSpeed": "160 mph",
+      "description": "The Rolls-Royce Black Badge series features enhanced performance and a more aggressive design for an unforgettable driving experience.",
+      "rating": 4.8,
+      "seats": 4,
+      "engineType": "Gasoline"
+    }
+  ]
+  

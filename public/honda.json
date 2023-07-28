@@ -1,0 +1,87 @@
+[
+    {
+      "brand": "Honda",
+      "carName": "Honda Accord",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/02/94/23/69/240_F_294236914_LxcPyKDmc56w8r6jtJIAIcbvkUiqArNM.jpg",
+      "year": 2023,
+      "perDayPrice": 120,
+      "mileage": "30 MPG",
+      "topSpeed": "130 mph",
+      "description": "The Honda Accord is a reliable and comfortable midsize sedan with a spacious interior.",
+      "rating": 4.5,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Honda",
+      "carName": "Honda Civic",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/03/01/58/32/240_F_301583263_BREJEOIyPsyP3ZUr4iXTT5IvoEsyGB6H.jpg",
+      "year": 2023,
+      "perDayPrice": 100,
+      "mileage": "32 MPG",
+      "topSpeed": "125 mph",
+      "description": "The Honda Civic is a practical and fuel-efficient compact car, perfect for daily commuting.",
+      "rating": 4.3,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Honda",
+      "carName": "Honda CR-V",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/04/16/73/70/240_F_416737087_7QTuy0GTcy81jo6pShYb1thXAbV0wztt.jpg",
+      "year": 2023,
+      "perDayPrice": 160,
+      "mileage": "28 MPG",
+      "topSpeed": "130 mph",
+      "description": "The Honda CR-V is a versatile and spacious compact SUV with a comfortable ride.",
+      "rating": 4.6,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Honda",
+      "carName": "Honda Pilot",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/03/88/52/07/240_F_388520760_udNlcy1XX4InVbgEgskMSBJAvf83EtTy.jpg",
+      "year": 2023,
+      "perDayPrice": 190,
+      "mileage": "25 MPG",
+      "topSpeed": "140 mph",
+      "description": "The Honda Pilot is a family-friendly midsize SUV offering a smooth and reliable driving experience.",
+      "rating": 4.8,
+      "seats": 7,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Honda",
+      "carName": "Honda Insight",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/03/01/58/32/240_F_301583263_BREJEOIyPsyP3ZUr4iXTT5IvoEsyGB6H.jpg",
+      "year": 2023,
+      "perDayPrice": 130,
+      "mileage": "55 MPG (Hybrid)",
+      "topSpeed": "110 mph",
+      "description": "The Honda Insight is a fuel-efficient hybrid car known for its eco-friendly features and comfortable ride.",
+      "rating": 4.5,
+      "seats": 5,
+      "engineType": "Hybrid"
+    },
+    {
+      "brand": "Honda",
+      "carName": "Honda Ridgeline",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/02/94/23/69/240_F_294236914_LxcPyKDmc56w8r6jtJIAIcbvkUiqArNM.jpg",
+      "year": 2023,
+      "perDayPrice": 180,
+      "mileage": "21 MPG",
+      "topSpeed": "115 mph",
+      "description": "The Honda Ridgeline is a capable and versatile midsize pickup truck, suitable for both work and play.",
+      "rating": 4.7,
+      "seats": 5,
+      "engineType": "Gasoline"
+    }
+  ]
+  

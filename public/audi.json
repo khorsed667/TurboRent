@@ -1,0 +1,87 @@
+[
+    {
+      "brand": "Audi",
+      "carName": "Audi A3",
+      "model": "2023",
+      "image": "https://img.freepik.com/premium-photo/close-up-suv-car-with-sport-modern-style_67092-386.jpg?size=626&ext=jpg&ga=GA1.1.457815948.1684342267&semt=ais",
+      "year": 2023,
+      "perDayPrice": 120,
+      "mileage": "30 MPG",
+      "topSpeed": "130 mph",
+      "description": "The Audi A3 is a compact luxury sedan known for its sporty performance and elegant design.",
+      "rating": 4.5,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Audi",
+      "carName": "Audi A4",
+      "model": "2023",
+      "image": "https://img.freepik.com/free-photo/luxury-black-sport-coupe-parking-snowy-road-forest_114579-4018.jpg?size=626&ext=jpg&ga=GA1.1.457815948.1684342267&semt=ais",
+      "year": 2023,
+      "perDayPrice": 150,
+      "mileage": "28 MPG",
+      "topSpeed": "140 mph",
+      "description": "The Audi A4 is a versatile luxury sedan that offers a perfect blend of comfort and technology.",
+      "rating": 4.8,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Audi",
+      "carName": "Audi Q5",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/04/91/89/32/240_F_491893206_NzKVZx49flaqUy6iESLs6nSXUrecN61Q.jpg",
+      "year": 2023,
+      "perDayPrice": 180,
+      "mileage": "25 MPG",
+      "topSpeed": "150 mph",
+      "description": "The Audi Q5 is a premium SUV with a spacious interior and advanced safety features.",
+      "rating": 4.7,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Audi",
+      "carName": "Audi q7",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/02/78/78/59/240_F_278785955_GWpsupRgCB2Alvg9sl4KFTpxX70r7MIE.jpg",
+      "year": 2023,
+      "perDayPrice": 220,
+      "mileage": "22 MPG",
+      "topSpeed": "155 mph",
+      "description": "The Audi Q7 is a luxury SUV that offers a perfect balance of power, elegance, and technology.",
+      "rating": 4.9,
+      "seats": 7,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Audi",
+      "carName": "Audi R8",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/04/91/89/32/240_F_491893206_NzKVZx49flaqUy6iESLs6nSXUrecN61Q.jpg",
+      "year": 2023,
+      "perDayPrice": 400,
+      "mileage": "18 MPG",
+      "topSpeed": "200 mph",
+      "description": "The Audi R8 is a high-performance sports car with stunning looks and exceptional handling.",
+      "rating": 5.0,
+      "seats": 2,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Audi",
+      "carName": "Audi e-trone",
+      "model": "2023",
+      "image": "https://img.freepik.com/premium-photo/close-up-suv-car-with-sport-modern-style_67092-386.jpg?size=626&ext=jpg&ga=GA1.1.457815948.1684342267&semt=ais",
+      "year": 2023,
+      "perDayPrice": 250,
+      "mileage": "220 miles (Electric)",
+      "topSpeed": "124 mph",
+      "description": "The Audi e-tron is an all-electric SUV with a luxurious cabin and impressive electric range.",
+      "rating": 4.6,
+      "seats": 5,
+      "engineType": "Electric"
+    }
+  ]
+  

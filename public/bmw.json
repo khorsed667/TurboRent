@@ -1,0 +1,87 @@
+[
+    {
+      "brand": "BMW",
+      "carName": "BMW 3 Series",
+      "model": "2023",
+      "image": "https://img.freepik.com/free-photo/blue-sport-sedan-parked-yard_114579-5078.jpg?size=626&ext=jpg&ga=GA1.1.457815948.1684342267&semt=ais",
+      "year": 2023,
+      "perDayPrice": 130,
+      "mileage": "28 MPG",
+      "topSpeed": "140 mph",
+      "description": "The BMW 3 Series is a sporty luxury sedan known for its driving dynamics and premium features.",
+      "rating": 4.6,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "BMW",
+      "carName": "BMW 5 Series",
+      "model": "2023",
+      "image": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?size=626&ext=jpg&ga=GA1.2.457815948.1684342267&semt=ais",
+      "year": 2023,
+      "perDayPrice": 160,
+      "mileage": "27 MPG",
+      "topSpeed": "145 mph",
+      "description": "The BMW 5 Series is an executive sedan that combines luxury with advanced technology and comfort.",
+      "rating": 4.7,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "BMW",
+      "carName": "BMW X3",
+      "model": "2023",
+      "image": "https://img.freepik.com/free-photo/grey-metallic-jeep-with-blue-stripe-it_114579-4080.jpg?size=626&ext=jpg&ga=GA1.2.457815948.1684342267&semt=ais",
+      "year": 2023,
+      "perDayPrice": 180,
+      "mileage": "26 MPG",
+      "topSpeed": "150 mph",
+      "description": "The BMW X3 is a premium compact SUV with a spacious cabin and sporty driving characteristics.",
+      "rating": 4.8,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "BMW",
+      "carName": "BMW 7 Series",
+      "model": "2023",
+      "image": "https://img.freepik.com/free-photo/white-modern-sport-car-parking-road_114579-4025.jpg?size=626&ext=jpg&ga=GA1.2.457815948.1684342267&semt=ais",
+      "year": 2023,
+      "perDayPrice": 220,
+      "mileage": "25 MPG",
+      "topSpeed": "155 mph",
+      "description": "The BMW 7 Series is a luxurious flagship sedan offering unmatched comfort and cutting-edge technology.",
+      "rating": 4.9,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "BMW",
+      "carName": "BMW M4",
+      "model": "2023",
+      "image": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?size=626&ext=jpg&ga=GA1.2.457815948.1684342267&semt=ais",
+      "year": 2023,
+      "perDayPrice": 400,
+      "mileage": "20 MPG",
+      "topSpeed": "180 mph",
+      "description": "The BMW M4 is a high-performance sports car with aggressive styling and thrilling driving dynamics.",
+      "rating": 4.9,
+      "seats": 4,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "BMW",
+      "carName": "BMW X5",
+      "model": "2023",
+      "image": "https://img.freepik.com/free-photo/white-modern-sport-car-parking-road_114579-4025.jpg?size=626&ext=jpg&ga=GA1.2.457815948.1684342267&semt=ais",
+      "year": 2023,
+      "perDayPrice": 190,
+      "mileage": "27 MPG",
+      "topSpeed": "155 mph",
+      "description": "The BMW X5 is a luxurious midsize SUV known for its refined interior and powerful engines.",
+      "rating": 4.7,
+      "seats": 5,
+      "engineType": "Gasoline"
+    }
+  ]
+  

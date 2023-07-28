@@ -1,0 +1,87 @@
+[
+    {
+      "brand": "Toyota",
+      "carName": "Toyota Camry",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/04/01/25/94/240_F_401259415_r3sNh6EROYP6Zq9yUAfLJwwrmqw61Lfj.jpg",
+      "year": 2023,
+      "perDayPrice": 110,
+      "mileage": "32 MPG",
+      "topSpeed": "125 mph",
+      "description": "The Toyota Camry is a reliable and comfortable midsize sedan suitable for everyday driving.",
+      "rating": 4.2,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Toyota",
+      "carName": "Toyota Corolla",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/03/87/96/02/240_F_387960228_awxlpXs4oLCUUPbg6jbhYzkQLeAvITQi.jpg",
+      "year": 2023,
+      "perDayPrice": 100,
+      "mileage": "34 MPG",
+      "topSpeed": "120 mph",
+      "description": "The Toyota Corolla is a practical and fuel-efficient compact sedan, perfect for city driving.",
+      "rating": 4.4,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Toyota",
+      "carName": "Toyota RAV4",
+      "model": "2023",
+      "image": "https://t4.ftcdn.net/jpg/03/65/80/47/240_F_365804724_8t4pqPw9X01JwE637smxfM6ruWyTAtH8.jpg",
+      "year": 2023,
+      "perDayPrice": 160,
+      "mileage": "28 MPG",
+      "topSpeed": "130 mph",
+      "description": "The Toyota RAV4 is a versatile and spacious compact SUV with great fuel efficiency and comfort.",
+      "rating": 4.6,
+      "seats": 5,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Toyota",
+      "carName": "Toyota Highlander",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/04/05/56/72/240_F_405567214_41k5eavafc8wsSUUwdLIaEXGbY8qg2db.jpg",
+      "year": 2023,
+      "perDayPrice": 190,
+      "mileage": "25 MPG",
+      "topSpeed": "140 mph",
+      "description": "The Toyota Highlander is a family-friendly midsize SUV offering a smooth and quiet ride.",
+      "rating": 4.8,
+      "seats": 7,
+      "engineType": "Gasoline"
+    },
+    {
+      "brand": "Toyota",
+      "carName": "Toyota Prius",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/02/30/83/12/240_F_230831245_zrzm9RN9hY76AJXoC6DFsBcvchazmt3b.jpg",
+      "year": 2023,
+      "perDayPrice": 130,
+      "mileage": "50 MPG (Hybrid)",
+      "topSpeed": "112 mph",
+      "description": "The Toyota Prius is a popular hybrid car known for its exceptional fuel efficiency and eco-friendliness.",
+      "rating": 4.5,
+      "seats": 5,
+      "engineType": "Hybrid"
+    },
+    {
+      "brand": "Toyota",
+      "carName": "Toyota Tacoma",
+      "model": "2023",
+      "image": "https://t3.ftcdn.net/jpg/03/87/96/02/240_F_387960228_awxlpXs4oLCUUPbg6jbhYzkQLeAvITQi.jpg",
+      "year": 2023,
+      "perDayPrice": 180,
+      "mileage": "20 MPG",
+      "topSpeed": "115 mph",
+      "description": "The Toyota Tacoma is a rugged and capable midsize pickup truck, perfect for off-road adventures.",
+      "rating": 4.7,
+      "seats": 5,
+      "engineType": "Gasoline"
+    }
+  ]
+  

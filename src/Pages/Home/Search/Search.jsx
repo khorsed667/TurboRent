@@ -42,9 +42,9 @@ const Search = () => {
               />
             </div>
           </div>
-          <buttton className="button w-1/4 items-center flex justify-center mx-4 mt-5">
+          <button className="button w-1/4 items-center flex justify-center mx-4 mt-5">
             Search
-          </buttton>
+          </button>
         </div>
     </div>
   );
