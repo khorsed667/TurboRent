@@ -20,7 +20,7 @@ const BMWCars = () => {
             <figure>
               <img className="w-full h-[200px]"  src={item.image} alt="Cars" />
             </figure>
-            <div className="card-body">
+            <div className="card-body p-3">
               <h2 className="card-title">
                 {item.carName}
                 <div className="badge absolute top-5">{item.brand}</div>
@@ -34,8 +34,8 @@ const BMWCars = () => {
                     emptySymbol="far fa-star" // Customize the empty star icon
                     fullSymbol="fas fa-star" // Customize the full star icon
                     fractions={2} // You can set the fractions to have half stars, etc.
-                  /> */}
-                  <p className="text-sm">({item.rating})</p>
+                  />
+                  <p className="text-sm">({item.rating})</p> */}
                 </div>
                 <div className="flex justify-between">
                   <div className="flex items-center">
@@ -61,7 +61,7 @@ const BMWCars = () => {
                   </div>
                 </div>
               </div>
-                <button className="btn bg-black hover:text-black text-white btn-block">Rent Now</button>
+                <button className="btn bg-black hover:text-black text-white btn-block my-3">Rent Now</button>
             </div>
           </div>
         ))}
