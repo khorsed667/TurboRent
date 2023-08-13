@@ -37,7 +37,7 @@ const CarType = () => {
                         <p className="secondaryText">21 Cars</p>
                     </div>
                 </div>
-                <button className="button mt-6 md:1/3 lg:w-1/6">View all Cars..</button>
+                <button className="button xsm:my-3 md:my-6 md:1/3 lg:w-1/6">View all Cars..</button>
             </div>
         </div>
     );

@@ -3,7 +3,7 @@ import { MdAdminPanelSettings } from 'react-icons/md';
 const Choose = () => {
     return (
         <div className="chose-container">
-            <div className="choose-section my-4  xsm:py-8 lg:py-0 xl:mx-10 xsm:mx-2">
+            <div className="choose-section my-4  xsm:py-8 lg:py-3 xl:mx-10 xsm:mx-2">
                 <div className="choose-heading xsm:w-5/6 md:w-2/3 lg:w-2/5 mx-auto text-center my-5">
                     <p className="text-2xl font-bold">
                         Why Choose Us?

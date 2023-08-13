@@ -7,7 +7,7 @@ import background from './../../../assets/number-bg.jpg'
 const Number = () => {
     return (
         <div className="number-container bg-cover" style={{backgroundImage:`url(${background})`}}>
-            <div className="number-section  xsm:py-8 lg:py-0 xl:mx-10 xsm:mx-2">
+            <div className="number-section  xsm:py-8 lg:py-3 xl:mx-10 xsm:mx-2">
                 <div className="number-headline xsm:w-5/6 sm:w-2/3 lg:w-2/5 mx-auto text-center">
                     <p className="text-2xl font-bold text-white">
                         Facts by the Number
