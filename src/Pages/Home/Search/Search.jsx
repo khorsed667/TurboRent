@@ -7,12 +7,12 @@ import "react-datepicker/dist/react-datepicker.css";
 const Search = () => {
   const [startDate, setStartDate] = useState(new Date());
   return (
-    <div className="search-container">
-        <div className="search-section left-[8%] absolute top-[455px] w-5/6 bg-white px-16 rounded-xl flex flex-row items-center justify-between">
-          <div className="location-container w-1/4  mx-[1%] p-[1%]">
+    <div className="search-container my-10">
+        <div className="search-section mx-auto left-[8%] 2xl:absolute 2xl:top-[510px] w-5/6 bg-white xsm:px-8 sm:px-16 rounded-xl grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+          <div className="location-container sm:m-[1%] sm:p-[1%]">
             <p className="font-semibold">Pickup Location</p>
-            <div className="pickup-location border-2 items-center flex justify-center rounded-md">
-              <MdOutlineLocationOn className="text-orange-500 text-xl"></MdOutlineLocationOn>
+            <div className="pickup-location border-2 items-center flex justify-between rounded-md">
+              <MdOutlineLocationOn className="text-orange-500 ms-2 text-xl"></MdOutlineLocationOn>
               <input
                 type="text"
                 className="p-2 outline-none"
@@ -20,10 +20,10 @@ const Search = () => {
               />
             </div>
           </div>
-          <div className="picup-date-container w-1/4  mx-[1%] p-[1%]">
+          <div className="picup-date-container sm:m-[1%] sm:p-[1%]">
             <p className="font-semibold">Pickup Date</p>
             <div className="pickup-date border-2 items-center flex justify-between rounded-md">
-              <BsCalendarDateFill className="ms-2 text-orange-500"></BsCalendarDateFill>{" "}
+              <BsCalendarDateFill className="ms-2 text-orange-500"></BsCalendarDateFill>
               <DatePicker
                 className="p-2 text-center outline-none secondaryText"
                 selected={startDate}
@@ -31,7 +31,7 @@ const Search = () => {
               />
             </div>
           </div>
-          <div className="picup-date-container w-1/4  mx-[1%] p-[1%]">
+          <div className="picup-date-container sm:m-[1%] sm:p-[1%]">
             <p className="font-semibold">Return Date</p>
             <div className="pickup-date border-2 items-center flex justify-between rounded-md">
               <BsCalendarDateFill className="ms-2 text-orange-500"></BsCalendarDateFill>{" "}
@@ -42,7 +42,7 @@ const Search = () => {
               />
             </div>
           </div>
-          <button className="button w-1/4 items-center flex justify-center mx-4 mt-5">
+          <button className="button items-center flex justify-center py-5 lg:mx-4 mx-auto mt-5">
             Search
           </button>
         </div>

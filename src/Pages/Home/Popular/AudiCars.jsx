@@ -13,11 +13,11 @@ const AudiCars = () => {
     .then((data) => setAudiCar(data));
   return (
     <div className="car-container">
-      <div className="car-section grid md:grid-cols-3 gap-5">
+      <div className="car-section xsm:mx-5 sm:mx-24 md:mx-10 grid xl:grid-cols-3 md:grid-cols-2 2xl:gap-x-32 md:gap-10">
         {audiCar.map((item, index) => (
-          <div key={index} className="card w-96 bg-base-100 shadow-xl relative">
+          <div key={index} className="card bg-base-100 shadow-xl xsm:my-3 lg:my-0 relative">
             <figure>
-              <img src={item.image} alt="Cars" />
+              <img className="w-full h-[200px]"  src={item.image} alt="Cars" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">

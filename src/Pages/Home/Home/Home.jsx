@@ -8,7 +8,7 @@ import Works from '../Works/Works';
 
 const Home = () => {
     return (
-        <div className='relative'>
+        <div className=''>
             <Banner></Banner>
             <Search></Search>
             <Works></Works>
