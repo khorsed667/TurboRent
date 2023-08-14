@@ -4,7 +4,7 @@ const useCars = () => {
     const [cars, setCars] = useState([]);
     const [loading, setLoading] = useState(true)
 
-    console.log(cars);
+    // console.log(cars);
 
     useEffect(()=>{
         fetch('cars.json')
