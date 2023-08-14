@@ -8,8 +8,6 @@ import Headline from "../../Components/Headline"
 const Cars = () => {
   const [cars] = useCars();
 
-  console.log(cars);
-
   const popular = cars?.filter((itm) => itm.status === "popular");
   const Audi = cars?.filter((itm) => itm.brand === "Audi");
   const BMW = cars?.filter((itm) => itm.brand === "BMW");
@@ -18,7 +16,7 @@ const Cars = () => {
   const Mercedes = cars?.filter((itm) => itm.brand === "Mercedes-Benz");
   const Rolls = cars?.filter((itm) => itm.brand === "Rolls-Royce");
 
-  console.log(popular);
+  
   return (
     <div className="cars-container">
       <div className="cars-section">

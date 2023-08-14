@@ -1,21 +1,21 @@
-import { useState } from "react";
 import { MdLocationPin } from "react-icons/md";
 import { SlSpeedometer } from "react-icons/sl";
 import { BsSpeedometer } from "react-icons/bs";
 import { BsFillFuelPumpFill } from "react-icons/bs";
 import { IoIosPricetag } from "react-icons/io";
+import useCars from "../../../hooks/useCars";
 
 const Toyota = () => {
-  const [toyotaCar, setToyotaCar] = useState([]);
+  const [cars] = useCars();
 
-  fetch("toyota.json")
-    .then((res) => res.json())
-    .then((data) => setToyotaCar(data));
+  const toyotaCars = cars.filter(car => car.brand === "Toyota")
+
+  const sortingToyota = toyotaCars.slice(0,6);
 
   return (
     <div className="car-container">
       <div className="car-section  xsm:mx-5 sm:mx-24 md:mx-10 grid xl:grid-cols-3 md:grid-cols-2 md:gap-10 2xl:gap-x-40">
-        {toyotaCar.map((item, index) => (
+        {sortingToyota.map((item, index) => (
           <div key={index} className="card bg-base-100 shadow-xl my-3 relative">
             <figure>
               <img className="w-full h-[200px]" src={item.image} alt="Cars" />

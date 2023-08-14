@@ -1,23 +1,26 @@
-import { useState } from "react";
 import { MdLocationPin } from "react-icons/md";
 import { SlSpeedometer } from "react-icons/sl";
 import { BsSpeedometer } from "react-icons/bs";
 import { BsFillFuelPumpFill } from "react-icons/bs";
 import { IoIosPricetag } from "react-icons/io";
+import useCars from "../../../hooks/useCars";
 
 const AudiCars = () => {
-  const [audiCar, setAudiCar] = useState([]);
+  const [cars] = useCars()
 
-  fetch("audi.json")
-    .then((res) => res.json())
-    .then((data) => setAudiCar(data));
+  const audiCars = cars.filter((car) => car.brand === "Audi");
+
+  const sortingBMW = audiCars.slice(0, 6);
   return (
     <div className="car-container">
       <div className="car-section xsm:mx-5 sm:mx-24 md:mx-10 grid xl:grid-cols-3 md:grid-cols-2 2xl:gap-x-32 md:gap-10">
-        {audiCar.map((item, index) => (
-          <div key={index} className="card bg-base-100 shadow-xl xsm:my-3 lg:my-0 relative">
+        {sortingBMW.map((item, index) => (
+          <div
+            key={index}
+            className="card bg-base-100 shadow-xl xsm:my-3 lg:my-0 relative"
+          >
             <figure>
-              <img className="w-full h-[200px]"  src={item.image} alt="Cars" />
+              <img className="w-full h-[200px]" src={item.image} alt="Cars" />
             </figure>
             <div className="card-body p-3">
               <h2 className="card-title">

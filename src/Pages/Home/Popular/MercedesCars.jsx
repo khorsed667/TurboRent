@@ -1,24 +1,24 @@
-import { useState } from "react";
 import { MdLocationPin } from "react-icons/md";
 import { SlSpeedometer } from "react-icons/sl";
 import { BsSpeedometer } from "react-icons/bs";
 import { BsFillFuelPumpFill } from "react-icons/bs";
 import { IoIosPricetag } from "react-icons/io";
+import useCars from "../../../hooks/useCars";
 
 const MercedesCars = () => {
-  const [mercedesCar, setMercedesCar] = useState([]);
+  const [cars] = useCars();
 
-  fetch("mercedes.json")
-    .then((res) => res.json())
-    .then((data) => setMercedesCar(data));
+  const mercedesCars = cars.filter((car) => car.brand === "Mercedes-Benz");
+
+  const sortingMercedes = mercedesCars.slice(0, 6);
 
   return (
     <div className="car-container">
       <div className="car-section  xsm:mx-5 sm:mx-24 md:mx-10 grid xl:grid-cols-3 md:grid-cols-2 md:gap-10 2xl:gap-x-40">
-        {mercedesCar.map((item, index) => (
+        {sortingMercedes.map((item, index) => (
           <div key={index} className="card bg-base-100 shadow-xl my-3 relative">
             <figure>
-              <img className="w-full h-[200px]"  src={item.image} alt="Cars" />
+              <img className="w-full h-[200px]" src={item.image} alt="Cars" />
             </figure>
             <div className="card-body p-3">
               <h2 className="card-title">
@@ -52,15 +52,18 @@ const MercedesCars = () => {
                   </div>
                 </div>
                 <div className="flex justify-between pt-1">
-                    <div className="flex items-center">
-                        <BsFillFuelPumpFill className="mx-1 text-orange-500"></BsFillFuelPumpFill>
-                    <p>{item.engineType}</p>
-                    </div>
                   <div className="flex items-center">
-                    <IoIosPricetag className="mx-1 text-orange-500"></IoIosPricetag><p className="font-bold">{item.perDayPrice}$ / Week</p>
+                    <BsFillFuelPumpFill className="mx-1 text-orange-500"></BsFillFuelPumpFill>
+                    <p>{item.engineType}</p>
+                  </div>
+                  <div className="flex items-center">
+                    <IoIosPricetag className="mx-1 text-orange-500"></IoIosPricetag>
+                    <p className="font-bold">{item.perDayPrice}$ / Week</p>
                   </div>
                 </div>
-                <button className="btn bg-black hover:text-black text-white btn-block my-3">Rent Now</button>
+                <button className="btn bg-black hover:text-black text-white btn-block my-3">
+                  Rent Now
+                </button>
               </div>
             </div>
           </div>
