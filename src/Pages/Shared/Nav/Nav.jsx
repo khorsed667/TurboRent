@@ -1,18 +1,20 @@
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   const navLink = (
     <>
-      <li>
-        <a className="text-lg font-semibold hover:text-orange-500">Home</a>
-      </li>
-      <li>
-        <a className="text-lg font-semibold hover:text-orange-500">Cars</a>
-      </li>
-      <li>
-        <a className="text-lg font-semibold hover:text-orange-500">Bookings</a>
-      </li>
-      <li>
-        <a className="text-lg font-semibold hover:text-orange-500">Contact</a>
-      </li>
+      <Link to="/">
+        <p className="text-lg font-semibold px-2 hover:text-orange-500">Home</p>
+      </Link>
+      <Link to="/cars">
+        <p className="text-lg font-semibold px-2 hover:text-orange-500">Cars</p>
+      </Link>
+      <Link to="/">
+        <p className="text-lg font-semibold px-2 hover:text-orange-500">Bookings</p>
+      </Link>
+      <Link to="/">
+        <p className="text-lg font-semibold px-2 hover:text-orange-500">Contact</p>
+      </Link>
     </>
   );
 
@@ -43,7 +45,7 @@ const Nav = () => {
             {navLink}
           </ul>
         </div>
-        <div><img className="w-[40px] xsm:hidden sm:block" src="./../../../../public/images (1).png" alt="" /></div>
+        <div><img className="w-[40px] xsm:hidden sm:block" src="./../../../../public/logo.png" alt="" /></div>
         <a className="btn btn-ghost normal-case text-xl">TurboRent</a>
       </div>
       <div className="navbar-center hidden lg:flex">
