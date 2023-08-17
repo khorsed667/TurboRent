@@ -12,8 +12,11 @@ const Nav = () => {
       <Link to="/">
         <p className="text-lg font-semibold px-2 hover:text-orange-500">Bookings</p>
       </Link>
-      <Link to="/">
-        <p className="text-lg font-semibold px-2 hover:text-orange-500">Contact</p>
+      <Link to="/login">
+        <p className="text-lg font-semibold px-2 hover:text-orange-500">Login</p>
+      </Link>
+      <Link to="/register">
+        <p className="text-lg font-semibold px-2 hover:text-orange-500">Register</p>
       </Link>
     </>
   );

@@ -1,12 +1,16 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
 import Swal from "sweetalert2";
 
-const Login = () => {
+const Register = () => {
 
-    const {singin} = useContext(AuthContext)
+    const {singup} = useContext(AuthContext)
+
+    const [error, setError] = useState({});
+
+    console.log(error);
 
   const {
     register,
@@ -14,11 +18,9 @@ const Login = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
-    singin(data.email, data.password)
+    singup(data.email, data.password)
     .then(result =>{
-        const loginUser = result.user;
-        console.log(loginUser);
+        console.log(result.user);
         if(result.user.providerId){
             Swal.fire(
                 'Success!',
@@ -27,7 +29,9 @@ const Login = () => {
             )
         }
     })
-    .then(err => console.log(err))
+    .then(err =>{
+        setError(err);
+    })
   };
 
   return (
@@ -36,7 +40,7 @@ const Login = () => {
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="text-center lg:text-left">
-              <h1 className="text-5xl font-bold">Login now!</h1>
+              <h1 className="text-5xl font-bold">Register now!</h1>
               <p className="py-6">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
@@ -48,6 +52,22 @@ const Login = () => {
                 <form onSubmit={handleSubmit(onSubmit)}>
                   <div className="form-control">
                     <label className="label">
+                      <span className="label-text">Username</span>
+                    </label>
+                    <input
+                      type="text"
+                      {...register("userName", { required: true })}
+                      placeholder="userName"
+                      className="input input-bordered"
+                    />
+                    {errors.userName && (
+                      <span className="text-red-500">
+                        This field is required
+                      </span>
+                    )}
+                  </div>
+                  <div className="form-control">
+                    <label className="label">
                       <span className="label-text">Email</span>
                     </label>
                     <input
@@ -57,7 +77,9 @@ const Login = () => {
                       className="input input-bordered"
                     />
                     {errors.email && (
-                      <span className="text-red-500">This field is required</span>
+                      <span className="text-red-500">
+                        This field is required
+                      </span>
                     )}
                   </div>
                   <div className="form-control">
@@ -66,26 +88,23 @@ const Login = () => {
                     </label>
                     <input
                       type="password"
-                      {...register("password", { required: true })}
+                      {...register("password", { required: true, minLength: 6, maxLength: 20, pattern: /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z])/ })}
                       placeholder="password"
                       className="input input-bordered"
-                    />
-                    {errors.password && (
-                      <span className="text-red-500">This field is required</span>
-                    )}
-                    <label className="label">
-                      <a href="#" className="label-text-alt link link-hover">
-                        Forgot password?
-                      </a>
-                    </label>
+                      />
+                        {errors.password?.type === 'minLength' && <p className="text-red-500" role="alert">Need to be atleast 6 character</p>}
+                        {errors.password?.type === 'maxLength' && <p className="text-red-500" role="alert">Not more than 20 character</p>}
+                        {errors.password?.type === 'required' && <p className="text-red-500" role="alert">password field is required</p>}
+                        {errors.password?.type === 'pattern' && <p className="text-red-500">Password need to with one Uppercase, one lower case, one number and one special character</p>}
+                    {errors.required && (<span className="text-red-500"> This field is required </span> )}
                   </div>
                   <div className="form-control mt-6">
                     <input className="btn btn-primary" type="submit" />
                   </div>
                   <span className="font-medium mt-5">
-                    Dont have an Account? Please{" "}
-                    <Link className="text-orange-500" to="/register">
-                      Register
+                    Already have an account? Please{" "}
+                    <Link className="text-orange-500" to="/login">
+                      Login
                     </Link>
                   </span>
                 </form>
@@ -97,5 +116,4 @@ const Login = () => {
     </div>
   );
 };
-
-export default Login;
+export default Register;
